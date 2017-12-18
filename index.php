@@ -8,8 +8,9 @@
     <?php
     $number=0;
     while($number<10){
-      $number++;
-      echo $number . '</br>';
+      echo $number;
+    ?> </br> <?php
+    $number++;
     }
      ?>
 
